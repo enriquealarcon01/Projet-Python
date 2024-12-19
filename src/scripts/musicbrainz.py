@@ -7,7 +7,7 @@ import time
 BASE_URL = "https://musicbrainz.org/ws/2"
 
 def fetch_artist_data(all_artists):
-    df_artists = pd.DataFrame(columns=['Artist', 'id', 'Country', 'Type', 'Gender', 'Rating', 'Tags'])
+    df_artists = pd.DataFrame(columns=['Artist', 'Country', 'Type', 'Gender', 'Rating', 'Tags'])
     for index, artist_name in tqdm.tqdm(enumerate(all_artists), total=len(all_artists)):
         
         # Fetch artist data
@@ -30,7 +30,7 @@ def fetch_artist_data(all_artists):
                     rating = artist_data.get("rating")
                     tags = artist_data.get("tags")
                     
-                    df_artists.loc[index] = [artist_name, artist_id, artist_country, artist_type, gender, rating, tags]
+                    df_artists.loc[index] = [artist_name, artist_country, artist_type, gender, rating, tags]
                                 
                 else:
                     print("No artist data found.")
