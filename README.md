@@ -3,10 +3,10 @@
 Plan (Brouillon)
 
 Introduction: 
-Les principaux classements de musique, comme le Billboard 200, il semble toujours être dominés par les mêmes artistes et par les mêmes genres. Est-ce que cela s'explique uniquement par leur notoriété? Il y a-t-il- d'autres facteurs qui contribuent à leur succès?
+Les principaux classements de musique, comme le Billboard 200, semblent toujours être dominés par les mêmes artistes et par les mêmes genres. Est-ce que cela s'explique uniquement par leur notoriété? Il y a-t-il d'autres facteurs qui contribuent à leur succès?
 
 Problématisation:
-Comment,à partir des outils abordés en cours, pouvons-nous expliquer la popularité des chansons présentes dans les classemetn du Billboard 200? Peut-on créer une chanson populaire capable de rivaliser avec les productions des labels discographiques les plus puissants?
+Comment,à partir des outils abordés en cours, pouvons-nous expliquer la popularité des chansons présentes dans le classement du Billboard 200? Peut-on créer une chanson populaire capable de rivaliser avec les productions des labels discographiques les plus puissants?
 
 Partie 1: Collecte, manipulation et traitement des données
 Objectifs
@@ -35,7 +35,7 @@ Objectif: A partir des informations collectées dans les deux parties précéden
 A) Préambule: retrouver les expressions et les mots clés
     - Modélisation des collocations ou n-grammes les plus utilisés dans les chansons populaires
 B) Tentative: Génération des paroles
-    - Nous allons essayer de produire des paroles originales nous inspirant des tendances
+    - Nous allons essayer de produire des paroles originales en nous inspirant des tendances
 C) Définir l'artiste idéal?
     - Modélisation des caractéristiques d'un artiste fictif idéal pour interpréter notre chanson
     Pour cela on pourra essayer de faire une régression??
