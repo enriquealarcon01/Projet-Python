@@ -16,7 +16,7 @@ stop_words.update(set(stopwords.words('spanish')))
 stop_words.update(set(stopwords.words('french')))
 
 # Add custom stopwords
-custom_stopwords = {'oh', 'na', 'yeah', 'uh', 'ah', 'la', 'ooh', 'hey', 'ha', 'woah', 'ayy', 'doo'}
+custom_stopwords = {'oh', 'na', 'yeah', 'uh', 'ah', 'la', 'ooh', 'hey', 'ha', 'woah', 'ayy', 'doo', 'wo', 'ca'}
 stop_words.update(custom_stopwords)
 
 def tokenize_lyrics(lyrics):
