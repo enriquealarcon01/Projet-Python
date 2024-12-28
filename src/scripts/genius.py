@@ -62,6 +62,7 @@ def find_lyrics(url):
         return None
     
 def fetch_lyrics(dataframe):
+    # Create a new dataframe to store the lyrics and keep the original intact
     new_dataframe = dataframe.copy()
     for song_name in tqdm.tqdm(new_dataframe['Song']):
         # Search for the song
