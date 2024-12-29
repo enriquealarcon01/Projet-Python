@@ -21,6 +21,7 @@ def get_billboard_hits():
         song_text = song_elements[i].text.strip().replace('\n', ' ').replace('  ', ' ')
         artist_text = artist_elements[i].text.strip().replace('\n', ' ').replace('  ', ' ')
         artist_text = re.split(r' & | Featuring ', artist_text)
+        # On évite les erreurs de nom sur l'artiste Rosé
         if 'ROSE' in artist_text:
             artist_text[artist_text.index('ROSE')] = 'Rosé'
         dataframe.loc[i] = [song_text, artist_text]
