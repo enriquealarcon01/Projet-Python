@@ -16,7 +16,7 @@ Comment, à partir des outils abordés en cours, pouvons-nous expliquer la popul
 - Collecter des données pertinentes:
     - Classement du Billboard 200
     - Caractéristiques des artistes et des chansons grâce à MusicBrainz
-    - Paroles des chansons à partir de Genius
+    - Paroles des chansons à partir de Genous
 - Nettoyer les données pour les rendre exploitables
 
 **Partie du cours:** Manipuler
