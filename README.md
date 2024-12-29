@@ -40,10 +40,10 @@ Comment, à partir des outils abordés en cours, pouvons-nous expliquer la popul
 
 **Objectif:** À partir des informations collectées dans les deux parties précédentes, nous allons essayer d'une part d'analyser les sentiments et les thèmes récurrents dans les chansons populaires, et d'autre part de générer des paroles originales qui pourraient potentiellement devenir un hit.
 
-**A) Préambule: retrouver les expressions, les mots clés et les sentiments récurrents**
+**A+B) Préambule: retrouver les expressions, les mots clés et les sentiments récurrents**
 - Modélisation des collocations ou n-grammes les plus utilisés dans les chansons populaires
 
-**B) Tentative: Génération des paroles**
+**C) Notre tentative: Génération des paroles d'un refrain**
 - Produire des paroles originales en nous inspirant des tendances
 
 ## Lien vers le notebook
