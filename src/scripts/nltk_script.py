@@ -19,6 +19,18 @@ stop_words.update(set(stopwords.words('french')))
 custom_stopwords = {'oh', 'na', 'yeah', 'uh', 'ah', 'la', 'ooh', 'hey', 'ha', 'woah', 'ayy', 'doo', 'wo', 'ca'}
 stop_words.update(custom_stopwords)
 
+def tokenize_lyrics_with_stopwords(lyrics):
+    """
+    Tokenize the lyrics and remove stopwords.
+    """
+    # Tokenize the lyrics
+    words = word_tokenize(lyrics)
+    
+    # Remove stopwords
+    words = [word.lower() for word in words if word.isalnum()]
+    
+    return words
+
 def tokenize_lyrics(lyrics):
     """
     Tokenize the lyrics and remove stopwords.
